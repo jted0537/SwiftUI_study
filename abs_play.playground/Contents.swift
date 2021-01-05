@@ -135,3 +135,9 @@ func a(age: Int?){
 var tmp = 70
 a(age: tmp)
 
+// 함수 파라미터 앞에 _(언더바)를 써줄 경우 라벨을 특정화하지 않고 호출이 가능해진다.
+func alpha(_ al: Int){
+    print("Hi \(al)")
+}
+alpha(3)
+
